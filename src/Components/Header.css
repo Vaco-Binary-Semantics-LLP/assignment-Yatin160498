@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  background-color: rgb(8, 69, 122);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.headerBar {
+  align-items: center;
+  display: flex;
+}
+.Link {
+  margin: 20px;
+  font-size: 1.5rem;
+  color: white;
+}

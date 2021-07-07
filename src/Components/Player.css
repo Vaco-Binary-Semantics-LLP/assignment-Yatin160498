@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.inputSearch {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 150px;
+  flex-direction: column;
+}
+.inputSearch label {
+  font-size: 1.5rem;
+}
+
+.playersInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.playerList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
